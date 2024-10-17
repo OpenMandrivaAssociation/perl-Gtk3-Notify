@@ -10,7 +10,7 @@ Release:	3
 Summary:	Perl module for libnotify
 License:	LGPLv2+ or Artistic
 Group:		Development/GNOME and GTK+
-Url:		http://gtk2-perl.sf.net/
+Url:		https://gtk2-perl.sf.net/
 Source0:	%{modname}-%{modver}.tar.gz
 
 BuildArch:	noarch
