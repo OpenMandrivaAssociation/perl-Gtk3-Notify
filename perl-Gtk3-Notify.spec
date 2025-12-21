@@ -15,6 +15,7 @@ Source0:	%{modname}-%{modver}.tar.gz
 
 BuildArch:	noarch
 
+BuildRequires:	make
 BuildRequires:	perl(ExtUtils::MakeMaker)
 BuildRequires:	perl(Glib::Object::Introspection)
 BuildRequires:	perl(Gtk3)
