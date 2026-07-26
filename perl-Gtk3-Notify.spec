@@ -1,17 +1,15 @@
 %define	modname	Gtk3-Notify
-%define	modver	0.01
-
 %define perl_glib_require 1.240
 
 Name:		perl-%{modname}
-Version:	%{perl_convert_version %{modver}}
-Release:	3
+Version:	0.01
+Release:	4
 
 Summary:	Perl module for libnotify
 License:	LGPLv2+ or Artistic
 Group:		Development/GNOME and GTK+
 Url:		https://gtk2-perl.sf.net/
-Source0:	%{modname}-%{modver}.tar.gz
+Source0:	%{modname}-%{version}.tar.gz
 
 BuildArch:	noarch
 
@@ -33,7 +31,7 @@ be used to inform the user about an event or display some form of information
 without getting in the user's way.
 
 %prep
-%setup -q -n %{modname}-%{modver}
+%setup -q -n %{modname}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
